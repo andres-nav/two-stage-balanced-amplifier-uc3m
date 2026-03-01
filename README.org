@@ -1,0 +1,26 @@
+* Design a Two Stage Balanced Amplifier in AWR Microwave Office
+
+This project was done for the subject High Frequency Technology taught in the [[https://www.uc3m.es/bachelor-degree/data-telecommunicaton][Dual Bachelor in Data Science and Engineering and Telecommunication Technologies Engineering]].
+
+The final grade was given the maximum grade of 10 out 10.
+
+[[./report/images/integration/complete_circuit_layout.png]]
+
+The main focus was on designing and understanding a two-stage microwave amplifier. Our goal was to create a device that can increase the power of microwave signals efficiently for a specific frequency range.
+
+For this implementation we used a commercial integrated amplifier with a high frequency circuit implemented in microstrip technology.
+
+The whole circuit was designed and simulated with AWR Microwave Office, you can check the main file [[./awr_simulation.emp][here]].
+
+The main part of this project were:
+- Study of the best suitable dielectric for the project.
+- Design and implementation of a Wilkinson power divider/combiner.
+- Development of a band pass filter implemented with coupled lines.
+- Architecture of a directional coupler
+
+For more information, please refer to the [[./report.pdf][report]].
+
+** About Me
+[[https://andresnav.com][Check out my website]] to know more about me.
+
+And if you want to get in contact with me, you can [[https://linkedin.com/in/andresnav][connect with me via LinkedIn]].
